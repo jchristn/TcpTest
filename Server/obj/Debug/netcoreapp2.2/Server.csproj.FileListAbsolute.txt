@@ -1,0 +1,11 @@
+c:\Code\Misc\TcpTest\Server\bin\Debug\netcoreapp2.2\Server.deps.json
+c:\Code\Misc\TcpTest\Server\bin\Debug\netcoreapp2.2\Server.runtimeconfig.json
+c:\Code\Misc\TcpTest\Server\bin\Debug\netcoreapp2.2\Server.runtimeconfig.dev.json
+c:\Code\Misc\TcpTest\Server\bin\Debug\netcoreapp2.2\Server.dll
+c:\Code\Misc\TcpTest\Server\bin\Debug\netcoreapp2.2\Server.pdb
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.csprojAssemblyReference.cache
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.csproj.CoreCompileInputs.cache
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.AssemblyInfoInputs.cache
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.AssemblyInfo.cs
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.dll
+c:\Code\Misc\TcpTest\Server\obj\Debug\netcoreapp2.2\Server.pdb

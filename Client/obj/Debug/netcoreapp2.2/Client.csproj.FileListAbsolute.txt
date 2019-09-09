@@ -1,0 +1,11 @@
+c:\Code\Misc\TcpTest\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+c:\Code\Misc\TcpTest\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+c:\Code\Misc\TcpTest\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+c:\Code\Misc\TcpTest\Client\bin\Debug\netcoreapp2.2\Client.dll
+c:\Code\Misc\TcpTest\Client\bin\Debug\netcoreapp2.2\Client.pdb
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.dll
+c:\Code\Misc\TcpTest\Client\obj\Debug\netcoreapp2.2\Client.pdb
