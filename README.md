@@ -2,11 +2,11 @@
 
 This project is aimed to help improve disconnect reliability for both WatsonTcp and SimpleTcp under the following scenarios:
 
-- **Server-side Dispose** Graceful termination of all client connections
-- **Server-side Client Removal** Graceful termination of one client connection
-- **Server-side Termination** Abrupt termination due to process abort or CTRL-C
-- **Client-side Dispose** Graceful termination of a client connection
-- **Client-Side Termination** Abrupt termination due to process abort or CTRL-C
+- **Server-side Dispose** - Graceful termination of all client connections
+- **Server-side Client Removal** - Graceful termination of one client connection
+- **Server-side Termination** - Abrupt termination due to process abort or CTRL-C
+- **Client-side Dispose** - Graceful termination of a client connection
+- **Client-Side Termination** - Abrupt termination due to process abort or CTRL-C
 
 Please note: this repository will likely not be maintained in a versioned manner with release numbers.
 
