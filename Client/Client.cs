@@ -173,6 +173,10 @@ namespace Client
                         ms.Write(buffer, 0, read);
                         return ms.ToArray();
                     }
+                    else
+                    {
+                        throw new SocketException();
+                    }
                 }
             } 
         }
