@@ -2,8 +2,11 @@
 
 This project is aimed to help improve disconnect reliability for both WatsonTcp and SimpleTcp under the following scenarios:
 
-- Graceful termination of connection ```Dispose()```
-- Non-graceful termination of connection through abrupt process termination ```ctrl-c```
+- **Server-side Dispose** Graceful termination of all client connections
+- **Server-side Client Removal** Graceful termination of one client connection
+- **Server-side Termination** Abrupt termination due to process abort or CTRL-C
+- **Client-side Dispose** Graceful termination of a client connection
+- **Client-Side Termination** Abrupt termination due to process abort or CTRL-C
 
 Please note: this repository will likely not be maintained in a versioned manner with release numbers.
 
@@ -26,4 +29,6 @@ $ dotnet client/bin/debug/netcoreapp2.2/client.dll
 
 ## Operation
 
-Use the dispose commands or use ctrl-c to test.
+On the server, use ```dispose```, ```remove```, ```q```, or ```ctrl-c```.
+
+On the client, use ```dispose```, ```q```, or ```ctrl-c```. 

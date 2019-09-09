@@ -14,7 +14,8 @@ namespace Server
         static bool runForever = true;
         static CancellationTokenSource tokenSource = new CancellationTokenSource();
         static CancellationToken token = tokenSource.Token;
-        static TcpListener listener = new TcpListener(IPAddress.Loopback, 8000);
+        static IPAddress ipAddress = IPAddress.Parse("192.168.1.163");
+        static TcpListener listener = new TcpListener(ipAddress, 8000);
         static Dictionary<string, Metadata> clients = new Dictionary<string, Metadata>();
 
         static void Main(string[] args)
@@ -49,6 +50,9 @@ namespace Server
                     case "send":
                         SendData();
                         break;
+                    case "remove":
+                        RemoveClient();
+                        break;
                 }
             }
         }
@@ -61,6 +65,7 @@ namespace Server
             Console.WriteLine("  dispose        Dispose the server");
             Console.WriteLine("  list           List clients");
             Console.WriteLine("  send           Send data to a client");
+            Console.WriteLine("  remove         Remove a client");
             Console.WriteLine("");
         }
 
@@ -128,6 +133,18 @@ namespace Server
                 md.networkStream.Write(dataBytes, 0, dataBytes.Length);
                 md.networkStream.Flush();
             }
+        }
+
+        static void RemoveClient()
+        {
+            ListClients();
+            Console.Write("Client: ");
+            string key = Console.ReadLine();
+            if (String.IsNullOrEmpty(key)) return;
+            Metadata md = clients[key];
+
+            clients.Remove(md.tcpClient.Client.RemoteEndPoint.ToString());
+            md.Dispose();
         }
 
         static async Task AcceptConnections(CancellationToken token)

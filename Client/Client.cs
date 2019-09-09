@@ -22,7 +22,7 @@ namespace Client
             client = new TcpClient();
             client.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.KeepAlive, true);
 
-            IAsyncResult ar = client.BeginConnect("127.0.0.1", 8000, null, null);
+            IAsyncResult ar = client.BeginConnect("192.168.1.163", 8000, null, null);
             WaitHandle wh = ar.AsyncWaitHandle;
              
             if (!ar.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(5), false))
@@ -159,7 +159,7 @@ namespace Client
             NetworkStream networkStream = client.GetStream();
             if (!networkStream.CanRead && !networkStream.DataAvailable)
             {
-                throw new OperationCanceledException();
+                throw new IOException();
             }
 
             using (MemoryStream ms = new MemoryStream())

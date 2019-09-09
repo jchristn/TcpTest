@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Code\\Misc\\TcpTest\\Client\\Client.csproj": {}
+    "C:\\Code\\Misc\\TcpTest\\Client\\Client.csproj": {}
   },
   "projects": {
-    "c:\\Code\\Misc\\TcpTest\\Client\\Client.csproj": {
+    "C:\\Code\\Misc\\TcpTest\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Code\\Misc\\TcpTest\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Code\\Misc\\TcpTest\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "c:\\Code\\Misc\\TcpTest\\Client\\Client.csproj",
+        "projectPath": "C:\\Code\\Misc\\TcpTest\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\joelc\\.nuget\\packages\\",
-        "outputPath": "c:\\Code\\Misc\\TcpTest\\Client\\obj\\",
+        "outputPath": "C:\\Code\\Misc\\TcpTest\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
