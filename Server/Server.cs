@@ -14,7 +14,7 @@ namespace Server
         static bool runForever = true;
         static CancellationTokenSource tokenSource = new CancellationTokenSource();
         static CancellationToken token = tokenSource.Token;
-        static IPAddress ipAddress = IPAddress.Parse("192.168.1.163");
+        static IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
         static TcpListener listener = new TcpListener(ipAddress, 8000);
         static Dictionary<string, Metadata> clients = new Dictionary<string, Metadata>();
 
